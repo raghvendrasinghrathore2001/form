@@ -1,0 +1,71 @@
+
+body{
+    background-image: url(image/2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.form{
+    width: 300px;
+    height: 400px;
+    background-color:rgb(129,169,220);
+    position: relative;
+    top: 80px;
+    left: 40%;
+    box-shadow: 12px 9px 4px;
+    
+    
+}
+h1{
+    position: relative;
+    top: 05px;
+    left: 60px;
+    text-shadow: 2px 1px 3px rgb(1, 8, 10);
+    
+}
+.check , .check1{
+    position: relative;
+    left: 55px;
+    border-radius: 50%;
+}
+.email{
+    position: relative;
+    top: 30px;
+    left: 30px;
+}
+.name{
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+.password{
+    position: relative;
+    top: 50px;
+    left: 8px;
+}
+.radio{
+    position: relative;
+    top: 70px;
+    left: 60px;
+}
+#submit{
+    position: relative;
+    top: 120px;
+    left: 50px;
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(8, 8, 1);
+    background-color: rgb(230, 234, 218);
+    font-size: 30px
+    
+    
+}
+#submit:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    background-color:rgb(225,217,252 ) ;
+    /* text-shadow: 1px 1px 3px; */
+    text-shadow: 3px 4px 3px rgb(1, 8, 10);
+}
